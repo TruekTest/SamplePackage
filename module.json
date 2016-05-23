@@ -7,7 +7,13 @@
         "patch": 0
     },
     "source": {
-        "module": "TruekTest/SamplePackage",
+        "module": "TruekTest/SamplePackage"
     },
+    "dependencies": [
+        {
+            "module": "SampleDependency",
+            "version": "0.1.1"
+        }
+    ],
     "private": false
 }
